@@ -28,6 +28,6 @@ class AdminController extends Controller
     public function delete(Request $request){
         Aspirasi::where('id_aspirasi', $request->id)->delete();
         Input_aspirasi::where('id_pelaporan', $request->id)->delete();
-        return redirect('/admin');
+        return redirect('/admin')->with('message', 'Data sudah berhasil di hapus');
     }
 }

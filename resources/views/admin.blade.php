@@ -1,8 +1,13 @@
 @extends('layouts.main-admin')
 @section('container')
 <section id="" class="justify-content-center py-4" style="height: 100vh">
+    @if (session('message'))
+        <div class="alert mt-3 alert-danger alert-dismissible fade show" role="alert">
+            <strong>{{ session('message') }}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
     <div class="row">
-
         <div class="col-12">
             <div class="card">
                 <div class="card-body p-4 ">

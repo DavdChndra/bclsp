@@ -3,7 +3,7 @@
 
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
     {{-- Input Pengaduan --}}
-    <h4 id="InputAspirasi" class="col-12 my-4 bg-light px-5 py-4 rounded fw-bold text-primary">Input Pengaduan</h4>
+    <h4 id="InputAspirasi" class="col-12 my-4 border-bottom border-4 py-4 fw-bold text-primary text-center mb-5 fs-3">Input Pengaduan</h4>
     <section id="input" style="height: auto;">
         <div class="row">
             <div class="col-md-4">
@@ -94,7 +94,7 @@
     </section>
     {{-- End Input Pengaduan --}}
     {{-- Lihat Pengaduan --}}
-    <h4 id="LihatAspirasi" class="col-12 my-4 bg-light px-5 py-4 rounded fw-bold text-primary">Lihat Pengaduan</h4>
+    <h4 id="LihatAspirasi" class="col-12 my-4 border-bottom border-4 py-4 fw-bold text-primary text-center mb-5 fs-3">Lihat Pengaduan</h4>
     <section id="aspirasi" class="justify-content-center" style="height: auto;">
         <div class="col-12 my-4 px-5 py-3 rounded">
             <div class="row justify-content-center">
@@ -225,7 +225,7 @@
     </section>
     {{-- End Lihat Pengaduan --}}
     {{-- About --}}
-    <h4 id="About" class="col-12 my-4 bg-light px-5 py-4 rounded fw-bold text-primary">About</h4>
+    <h4 id="About" class="col-12 my-4 border-bottom border-4 py-4 fw-bold text-primary text-center mb-5 fs-3">About</h4>
     <img src="img/telkom2.png" alt="Telkom" class="d-block mx-auto my-5" width="25%">
     <div class="px-5">
         <p class="text-center">
